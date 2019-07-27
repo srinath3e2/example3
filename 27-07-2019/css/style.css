@@ -1,0 +1,27 @@
+nav{
+	background-color: green;
+	height: 40px;
+	width:100%;
+}
+ul li{
+	float:left;
+	list-style-type: none;
+	padding-left: 20px;
+	padding-top:10px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+.dropdown:{
+	display:none;
+
+}
+.dropdownlist a{
+	display:block;
+	color:white;
+	background:green;
+}
+.dropdown:hover .dropdownlist{
+	display:block;
+}
